@@ -22,7 +22,7 @@ function getFruitBy(filter) {
 }
 
 function getAllFruits() {
-  return db('fruits').select();
+  return db('fruits');
 }
 
 function updateFruit(id, changes) {

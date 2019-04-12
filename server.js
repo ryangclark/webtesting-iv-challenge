@@ -5,6 +5,6 @@ const server = express();
 
 server.use(express.json());
 
-server.use()
+server.use('/api/fruits', fruitRoutes);
 
 module.exports = server;
